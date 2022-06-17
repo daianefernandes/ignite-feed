@@ -8,13 +8,21 @@
     --gray-800: #202024;
     --gray-900: #121214;
 
-    --green-500: #00875f;
+    --purple-300: #9a74f1;
+    --purple-500: #8257E6;
+
+    --red-500: #F75a68;
+}
+
+:focus {
+    box-shadow: 0 0 0 2px var(--purple-500);
+    outline: transparent;
 }
 
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
@@ -25,6 +33,6 @@ body {
 
 body, input, textarea, button {
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
     font-size: 1rem;
+    font-weight: 400;
 }
